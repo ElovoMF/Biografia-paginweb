@@ -1,0 +1,95 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+    background-color: #A8DF8E;
+    margin: 0;
+}
+/*#FFE5E5#F3FDE8#A8DF8E*/
+section{
+	    margin: 50px 20px 0px;
+	    display: flex;   
+}
+
+h1{
+    color: #5C5470;
+    text-align: center;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    width: 30px;
+}
+/*#0085a9*/
+.barra{
+    background-color:#183D3D ;
+    height: 50px;
+    margin: 0;
+}
+.info{
+    margin: 30px 0;
+    display: flex;
+    min-width: 250px;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+.text-info{
+    margin: 0 0 0 20px;
+    background-color: #A8DF8E;
+    flex: 1;
+    min-width: 250px;
+    flex-wrap: wrap;
+}
+   
+.foto-perfil{
+    border-radius: 50%;
+    width: 300px;
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    min-width: 250px;
+    justify_content: center
+
+}
+h3{
+    text-align: center;
+    margin: 30px 0 30px;
+    color: #5C5470;
+    font-family: 'Roboto', sans-serif;
+}
+.img{
+    text-align: center;
+    background-color: #A8DF8E;
+    padding: 20px 30px 20px;
+    flex: 2;
+	flex-wrap: wrap;
+    min-width: 250px;
+   
+}
+.targeta{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+button{
+    background-color: #183D3D;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    opacity: 0.8;
+}
+span{
+    font-size: 12px;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
